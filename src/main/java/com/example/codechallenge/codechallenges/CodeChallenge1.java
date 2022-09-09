@@ -1,4 +1,4 @@
-package com.example.codechallenge;
+package com.example.codechallenge.codechallenges;
 
 import org.junit.Assert;
 

@@ -1,4 +1,4 @@
-package com.example.codechallenge;
+package com.example.codechallenge.codechallenges;
 
 /**
  * @author juan.yee
@@ -23,20 +23,14 @@ public class CodeChallenge12 {
         return sum;
     }
 
-    private static int getPosition(char value) {
-        return CIRCULAR_PRINTER.indexOf(value);
-    }
-
     private static long getCount(char from, char to) {
-//        System.out.println("> " + getPosition(from));
-//        System.out.println("> " + getPosition(to));
         /*
          * N -> 13
          * O -> 14 (12) -2
          * P -> 15 (11) -4
          * Q -> 16 (10) -6
          */
-        long diff = Math.abs(getPosition(to) -getPosition(from));
+        long diff = Math.abs(CIRCULAR_PRINTER.indexOf(to) - CIRCULAR_PRINTER.indexOf(from));
         if (diff > 13) {
             diff = CIRCULAR_PRINTER.length() - diff;
         }

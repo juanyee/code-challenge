@@ -1,4 +1,4 @@
-package com.example.codechallenge;
+package com.example.codechallenge.cheatsheets;
 
 import java.util.Arrays;
 import java.util.Collections;

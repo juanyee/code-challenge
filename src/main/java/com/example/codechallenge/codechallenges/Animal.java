@@ -1,4 +1,4 @@
-package com.example.codechallenge.examples;
+package com.example.codechallenge.codechallenges;
 
 /**
  * @author juan.yee
